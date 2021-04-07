@@ -1,0 +1,9 @@
+//Code for fifth question
+let num = prompt("Enter a number");
+parseInt(num);
+let count = 0;
+while (parseInt(num) != 0) {
+    count++;
+    num = num / 10;
+}
+console.log(count);
