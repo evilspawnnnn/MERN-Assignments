@@ -1,0 +1,18 @@
+//code for third question gcd of two numbers
+let n1 = prompt("Enter first number");
+let n2 = prompt("Enter second number");
+let gcd = 1;
+let i = 1;
+let j = null;
+if (n1 > n2) {
+    j = n2;
+}
+else {
+    j = n1;
+}
+while (i <= j) {
+    if (n1 % i == 0 && n2 % i == 0) {
+        gcd = i;
+    }
+    i++;
+}
