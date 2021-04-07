@@ -1,0 +1,14 @@
+//code for first question
+let c = prompt("Enter number of credits");
+if (c >= 7500) {
+    console.log("Tera Leader");
+}
+else if (c >= 6000 && c < 7500) {
+    console.log("Gega Leader");
+}
+else if (c >= 4500 && c < 6000) {
+    console.log("Mega Leader");
+}
+else {
+    console.log("Rising Star")
+}
