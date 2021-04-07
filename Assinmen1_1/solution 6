@@ -1,0 +1,8 @@
+let newNum = prompt("Enter number to reverse");
+parseInt(newNum);
+let ans = 0;
+while (parseInt(newNum) != 0) {
+    ans = (ans * 10) + (newNum % 10);
+    newNum /= 10;
+}
+console.log(ans);
