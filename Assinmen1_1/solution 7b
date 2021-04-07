@@ -1,0 +1,14 @@
+//Code for question-7b
+let n = 5;
+let i = 0
+while (i < n) {
+    let j = 0;
+    let c = 1;
+    while (j <= i) {
+        process.stdout.write("" + c);
+        j++;
+        c++;
+    }
+    console.log();
+    i++;
+}
