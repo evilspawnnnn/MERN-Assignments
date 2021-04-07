@@ -1,0 +1,43 @@
+//Code for 7g
+let n = 5;
+let i = 0;
+while (i < n) {
+    let j = 0;
+    while (j <= i) {
+        process.stdout.write("*");
+        j++;
+    }
+    let k = 0;
+    while (k < 2 * (n - i - 1)) {
+        process.stdout.write(" ")
+        k++;
+    }
+    let s = 0;
+    while (s <= i) {
+        process.stdout.write("*");
+        s++;
+    }
+    console.log();
+    i++;
+}
+let g = 0;
+let h = n - 1;
+while (g < h) {
+    let p = 0;
+    while (p < h - g) {
+        process.stdout.write("*");
+        p++;
+    }
+    let q = 0;
+    while (q < 2 * (g + 1)) {
+        process.stdout.write(" ");
+        q++;
+    }
+    let t = 0;
+    while (t < h - g) {
+        process.stdout.write("*");
+        t++;
+    }
+    console.log();
+    g++;
+}
