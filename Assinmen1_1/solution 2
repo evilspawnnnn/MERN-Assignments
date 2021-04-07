@@ -1,0 +1,8 @@
+//code for second question
+let a = prompt("Enter amount");
+parseInt(a);
+let r = prompt("Enter rate");
+parseInt(r);
+let t = prompt("Enter time");
+parseInt(t);
+console.log((a * r * t) / 100);
