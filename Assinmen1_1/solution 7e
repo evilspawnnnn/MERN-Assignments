@@ -1,0 +1,16 @@
+//Code for question 7e
+let n = 5;
+let i = 0;
+while (i <= n) {
+    let j = 0;
+    let r = 1;
+    while (j <= i) {
+        if (j != 0) {
+            r = r * (i - j + 1) / j;
+        }
+        process.stdout.write("" + r);
+        j++;
+    }
+    console.log();
+    i++;
+}
