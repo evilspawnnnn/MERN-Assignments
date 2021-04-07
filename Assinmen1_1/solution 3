@@ -16,3 +16,4 @@ while (i <= j) {
     }
     i++;
 }
+console.log(gcd);
