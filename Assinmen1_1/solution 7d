@@ -1,0 +1,25 @@
+//code for question 7-d 
+let n = 5;
+let i = 0;
+while (i < n) {
+    let k = 0;
+    while (k < n - 1 - i) {
+        process.stdout.write(" ");
+        k++;
+    }
+    let j = 0;
+    let r = i + 1;
+    while (j <= i) {
+        process.stdout.write("" + r);
+        r++, j++;
+    }
+    let l = 2 * i;
+    let s = 0;
+    while (s < i) {
+        process.stdout.write("" + l);
+        l--;
+        s++;
+    }
+    console.log();
+    i++;
+}
