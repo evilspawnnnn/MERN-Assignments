@@ -1,0 +1,22 @@
+//Code for question 7f
+let n = 5;
+let i = 0;
+while (i < n) {
+    let k = 0;
+    while (k < n - i - 1) {
+        process.stdout.write(" ");
+        k++;
+    }
+    let j = 0;
+    while (j <= i) {
+        process.stdout.write("*");
+        j++;
+    }
+    let l = 0;
+    while (l < i) {
+        process.stdout.write("*");
+        l++;
+    }
+    console.log();
+    i++;
+}
